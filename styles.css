@@ -1,0 +1,166 @@
+:root {
+    --dark: #6C1F0A;
+    --medium: #D3A6A1;
+    --light: #EBDBD1;
+    --highlight: #E95C04;
+    --highlight2: #F89F7F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    color: var(--dark);
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    padding-top: 20px;
+    z-index: 99;
+}
+
+.subtitle {
+    font-family: sans-serif;
+    color: var(--highlight2);
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+
+nav {
+    background-color: #F2DDD5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    color: #C88A84;
+    font-family: Georgia;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #C88A84;
+}
+
+.fixed {
+    position: fixed;
+    width: 100vw;
+}
+
+main {
+    padding-top: 150px;
+}
+
+.container {
+    position: relative;
+}
+
+.anchor {
+    position: absolute;
+    top: -150px;
+}
+
+.header_img {
+    width: 100vw;
+    border-top: 4px solid var(--medium);
+    border-bottom: 4px solid var(--medium);
+}
+
+h2 {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: #E7CAC7;
+    color: #E68E6E;
+    font-family: Calibri;
+}
+
+h2:first-letter {
+    font-size: 1.8rem;
+}
+
+article {
+    margin: 25px;
+    padding: 15px;
+    background-color: var(--light);
+}
+
+.article_img {
+    width: 200px;
+    border-radius: 30px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+}
+
+.img_left {
+    float: left;
+}
+
+.img_right {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 1.1rem;
+    color: var(--dark);
+}
+
+.info {
+    font-family: Tahoma;
+    line-height: 1.4rem;
+    padding-top: 5px;
+}
+
+ul.info li {
+    list-style: none;
+}
+
+.indent {
+    margin-left: 2rem;
+}
+
+.info_link {
+    color: black;
+    text-decoration: none;
+}
+
+.info_link:hover {
+    color: var(--highlight2);
+}
+
+.info_link:visited {
+    color: var(--dark);
+}
+
+footer {
+    background-color: var(--medium);
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h4 {
+    font-family: Verdana;
+    font-size: 0.9rem;
+    color: var(--light);
+}
+
+@media (max-width:1000px) {
+    nav ul {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        line-height: 1.5rem;
+    }
+}
