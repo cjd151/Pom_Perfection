@@ -170,17 +170,19 @@ h4 {
     main {
         padding-top: 200px;
     }
-}
 
-@media (min-width: 494px) and (max-width: 500px) {
-    main {
-        padding-top: 180px;
+    .anchor {
+        top: -200px;
     }
 }
 
-@media (min-width: 501px) and (max-width: 900px) {
+@media (min-width: 494px) and (max-width: 900px) {
     main {
         padding-top: 180px;
+    }
+
+    .anchor {
+        top: -180px;
     }
     
 }
@@ -191,4 +193,36 @@ h4 {
         padding-right: 1rem;
         line-height: 1.5rem;
     }
+}
+
+@media (max-width:550px) {
+
+    .article_left {
+        display: block;
+    }
+
+    .article_right {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .article_right div {
+        order: 2;
+    } 
+
+    .img_right {
+        order: 1;
+    }
+
+    article div {
+        margin-top: 15px;
+    }
+
+    .article_img {
+        padding: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
