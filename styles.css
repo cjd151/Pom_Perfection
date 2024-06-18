@@ -89,27 +89,32 @@ h2:first-letter {
 }
 
 article {
+    display: flex;
     margin: 25px;
     padding: 15px;
     background-color: var(--light);
 }
 
 .article_img {
+    display: flex;
     width: 200px;
+    height: 200px;
     border-radius: 30px;
     margin-right: 15px;
     margin-bottom: 1px;
 }
 
 .img_left {
-    float: left;
+    position: relative;
+    left: 0.8rem;
+    margin-right: 2rem;
 }
 
 .img_right {
-    float: right;
-    margin-right: 0;
-    margin-left: 15px;
+    position: relative;
+    margin-left: 2rem;
 }
+
 
 h3 {
     font-family: Arial;
@@ -142,6 +147,10 @@ ul.info li {
 
 .info_link:visited {
     color: var(--dark);
+}
+
+.info li {
+    line-height: 1.6rem;
 }
 
 footer {
