@@ -157,6 +157,25 @@ h4 {
     color: var(--light);
 }
 
+@media (max-width: 493px) {
+    main {
+        padding-top: 200px;
+    }
+}
+
+@media (min-width: 494px) and (max-width: 500px) {
+    main {
+        padding-top: 180px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+    main {
+        padding-top: 180px;
+    }
+    
+}
+
 @media (max-width:1000px) {
     nav ul {
         padding-left: 1rem;
